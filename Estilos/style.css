@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  width: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+body {
+  background: #1a1b1f;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding-left: 72px;
+}
+
+.contenedor_nav {
+  width: 70px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+.contenedor_nav .nav_lateral {
+  width: 100%;
+  text-align: center;
+}
+.contenedor_nav .nav_lateral .logo {
+  width: 50px;
+  filter: invert(100%);
+}
+.contenedor_nav .nav_lateral img {
+  width: 50px;
+}/*# sourceMappingURL=style.css.map */

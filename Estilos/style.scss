@@ -1,0 +1,33 @@
+@import '../variables';
+// @include displayFlex;
+
+body{
+        background: $color_primario;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        padding-left: 72px;
+
+}
+
+.contenedor_nav{
+        width: 70px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        // background-color: red;
+        border-right: 1px solid rgb(255, 255, 255);
+        .nav_lateral{
+                width: 100%;
+                text-align: center;
+                .logo{
+                        width: 50px;
+                        filter: invert(100%);
+                }
+                img
+                {
+                        width: 50px;
+                }
+        }
+}
