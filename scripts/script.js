@@ -15,6 +15,6 @@ const abrir = (valor) => {
             alert('La pagina aun no es agregada');
         }else{
             // Si no, abre la URL correspondiente en una nueva ventana o pestaña
-            window.open(paginas[valor], '_blank');
+            window.open(paginas[valor], '_self');
         }
     }

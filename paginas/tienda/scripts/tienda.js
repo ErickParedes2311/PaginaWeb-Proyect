@@ -2,11 +2,11 @@
 const abrir = (valor) => {
         // Define un objeto que mapea los nombres de las páginas a sus URLs
         let paginas = {
-            'Inicio' : '../../index.html',
-            'Tienda' : 'paginas/tienda.html',
-            'Juegos' : 'paginas/juegos/juegos.html',
-            'Videos' : 'videos.html',
-            'Libros' : 'paginas/libros/libros.html'
+            'Inicio' : '../../../index.html',
+            'Tienda' : 'tienda.html',
+            'Juegos' : '../../juegos/juegos.html',
+            'Videos' : '../../videos/videos.html',
+            'Libros' : '../../libros/libros.html'
         }
     
         // Verifica si el valor está vacío, es indefinido, o no existe en el objeto paginas
@@ -15,6 +15,6 @@ const abrir = (valor) => {
             alert('La pagina aun no es agregada');
         }else{
             // Si no, abre la URL correspondiente en una nueva ventana o pestaña
-            window.open(paginas[valor], '_blank');
+            window.open(paginas[valor], '_self');
         }
     }
