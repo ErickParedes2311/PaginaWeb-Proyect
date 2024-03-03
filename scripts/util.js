@@ -2,8 +2,8 @@
 const abrir = (valor) => {
         // Define un objeto que mapea los nombres de las páginas a sus URLs
         let paginas = {
-            'Inicio' : 'index.html',
-            'Tienda' : 'paginas/tienda/tienda.html',
+            'Inicio' : '../../index.html',
+            'Tienda' : 'paginas/tienda.html',
             'Juegos' : 'paginas/juegos/juegos.html',
             'Videos' : 'paginas/videos/videos.html',
             'Libros' : 'paginas/libros/libros.html'
@@ -18,3 +18,5 @@ const abrir = (valor) => {
             window.open(paginas[valor], '_blank');
         }
     }
+
+

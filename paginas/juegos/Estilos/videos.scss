@@ -1,0 +1,20 @@
+@import '../../../reutilizables/variables';
+// @include displayFlex;
+
+body{
+        background: $color_primario;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        padding-left: 82px;
+
+}
+@import '../../../reutilizables/navLateral';
+
+.active
+{
+        box-shadow: 0px 0px 5px $color_selecionado;
+        border-radius: 10px;
+        background-color: $color_selecionado;
+}
+
