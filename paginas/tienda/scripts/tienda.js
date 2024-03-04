@@ -4,9 +4,9 @@ const abrir = (valor) => {
         let paginas = {
             'Inicio' : '../../../index.html',
             'Tienda' : 'tienda.html',
-            'Juegos' : '../../juegos/juegos.html',
-            'Videos' : '../../videos/videos.html',
-            'Libros' : '../../libros/libros.html'
+            'Juegos' : '/paginas/juegos/juegos.html',
+            'Videos' : '/paginas/videos/videos.html',
+            'Libros' : '/paginas/libros/libros.html'
         }
     
         // Verifica si el valor está vacío, es indefinido, o no existe en el objeto paginas

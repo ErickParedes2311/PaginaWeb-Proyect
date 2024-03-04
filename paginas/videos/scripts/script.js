@@ -2,11 +2,11 @@
 const abrir = (valor) => {
         // Define un objeto que mapea los nombres de las páginas a sus URLs
         let paginas = {
-            'Inicio' : '../../index.html',
-            'Tienda' : 'paginas/tienda.html',
-            'Juegos' : 'paginas/juegos/juegos.html',
+            'Inicio' : '../../../index.html',
+            'Tienda' : '/paginas/tienda/tienda.html',
+            'Juegos' : '/paginas/juegos/juegos.html',
             'Videos' : 'videos.html',
-            'Libros' : 'paginas/libros/libros.html'
+            'Libros' : '/paginas/libros/libros.html'
         }
     
         // Verifica si el valor está vacío, es indefinido, o no existe en el objeto paginas
