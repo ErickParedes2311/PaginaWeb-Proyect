@@ -132,7 +132,7 @@ body {
   }
 }
 .contenedor_perfil {
-  position: absolute;
+  position: fixed;
   top: 10px;
   width: 100%;
   height: 50px;
@@ -145,7 +145,7 @@ body {
   width: -moz-max-content;
   width: max-content;
   height: 100%;
-  position: absolute;
+  position: relative;
   top: 0px;
   display: flex;
   flex-direction: row;
@@ -159,7 +159,7 @@ body {
   color: white;
   border: 1px solid rgb(100, 100, 100);
   border-radius: 10px;
-  padding: 6px 3px 8px 6px;
+  padding: 6px 3px 8px 30px;
   transition: border-bottom ease 0.5s;
 }
 .contenedor_perfil .buscar input[type=search]:hover {
@@ -176,18 +176,47 @@ body {
   border-left: 0 solid #0d81ec;
   box-shadow: 2px 1px 1px #0d81ec;
 }
+.contenedor_perfil .buscar .img_lupa {
+  position: absolute;
+  left: 6px;
+  width: 20px;
+  stroke: white;
+}
 .contenedor_perfil .notificaciones {
   width: -moz-max-content;
   width: max-content;
   height: 100%;
   position: absolute;
-  right: 250px;
+  right: 330px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.contenedor_perfil .perfil {
+.contenedor_perfil .notificaciones .img_notifi {
+  width: 30px;
+  stroke: white;
+}
+.contenedor_perfil .notificaciones .img_notifi:hover {
+  stroke: #0d81ec;
+  cursor: pointer;
+}
+.contenedor_perfil .notificaciones .content_emergent_notificaciones {
+  position: fixed;
+  top: 0;
+  right: -1000px;
+  background: #1a1b1f;
+  color: white;
+  width: 250px;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 5px;
+  transition: right ease 0.5s;
+  z-index: 1000;
+}
+.contenedor_perfil .perfilContent {
   width: -moz-max-content;
   width: max-content;
   height: 100%;
@@ -195,10 +224,39 @@ body {
   top: 0;
   right: 150px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: rigth ease 0.5s;
 }
-.contenedor_perfil img {
+.contenedor_perfil .perfilContent .titulo_text {
+  font-size: 14px;
+  margin-right: 12px;
+  color: white;
+}
+.contenedor_perfil .perfilContent .content_emergent_perfil {
+  position: fixed;
+  top: 0;
+  right: -1000px;
+  background: #1a1b1f;
+  color: white;
+  width: 250px;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 5px;
+  transition: right ease 0.5s;
+  z-index: 2000;
+}
+.contenedor_perfil .perfilContent img {
   width: 50px;
+  border-radius: 50%;
+}
+.contenedor_perfil .perfilContent:hover .titulo_text {
+  color: #0d81ec;
+}
+.contenedor_perfil .perfilContent:hover img {
+  box-shadow: 0px 0px 2px 2px #0d81ec;
 }/*# sourceMappingURL=style.css.map */
