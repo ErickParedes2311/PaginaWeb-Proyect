@@ -1,0 +1,214 @@
+body{
+        background: $color_primario;
+        max-width: 100vw;
+        height: 100vh;
+        position: relative;
+        padding-left: 130px;
+        padding-top: 70px;
+        padding-right: 10px;
+        overflow: hidden;
+}
+.contenedor_perfil{
+        position: fixed;
+        top: 10px;
+        width: 100%;
+        height: 50px;
+        @include displayFlex(row, center, none);
+        .buscar{
+                width: max-content;
+                height: 100%;
+                position: relative;
+                top: 0px;
+                @include displayFlex(row, center, center);
+
+                input[type="search"]{
+                        width: 400px;
+                        position: relative;
+                        background: $color_primario;
+                        color: white;
+                        border: 1px solid rgb(100, 100, 100);
+                        border-radius: 10px;
+                        padding: 6px 3px 8px 30px;
+                        transition: border-bottom  ease .5s;
+                        &:hover{
+                                border-bottom: 2px  solid $color_selecionado;
+                                border-top: 0 solid $color_selecionado;
+                                border-right: 0 solid $color_selecionado;
+                                border-left: 0 solid $color_selecionado;
+                                box-shadow: 2px 1px 1px $color_selecionado;
+                }
+                        &:focus{
+                                border-bottom: 2px  solid $color_selecionado;
+                                border-top: 0 solid $color_selecionado;
+                                border-right: 0 solid $color_selecionado;
+                                border-left: 0 solid $color_selecionado;
+                                box-shadow: 2px 1px 1px $color_selecionado;
+                        }
+                }
+                .img_lupa{
+                        position: absolute;
+                        left: 6px;
+                        width: 20px;
+                        stroke: white;
+                }
+        }
+        .notificaciones{
+                width: max-content;
+                height: 100%;
+                position: absolute;
+                right: calc(150px + 180px);
+                @include displayFlex(column, center, center);
+                
+                .img_notifi{
+                        width: 30px;
+                        stroke: white;
+                        &:hover{
+                                stroke: $color_selecionado;
+                                cursor: pointer;
+                        }
+                }
+                .content_emergent_notificaciones{
+                        position: fixed;
+                        top: 0;
+                        right: -1000px;
+                        background: $color_primario;
+                        color: white;
+                        width: 250px;
+                        height: 100%;
+                        border: 1px solid white;
+                        border-radius: 10px;
+                        text-align: center;
+                        padding: 10px 5px;
+                        transition: right 0.7s ease; 
+                        z-index: 1000;
+                }
+        }
+        .perfilContent{
+                width: max-content;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                right: 150px;
+                @include displayFlex(row, center, center);
+                cursor: pointer;
+                transition: rigth ease 0.5s;
+                .titulo_text{
+                        font-size: 14px;
+                        margin-right: 12px;
+                        color: white;
+                }
+                .content_emergent_perfil{
+                        position: fixed;
+                        top: 0;
+                        right: -1000px;
+                        background: $color_primario;
+                        color: white;
+                        width: 250px;
+                        height: 100%;
+                        border: 1px solid white;
+                        border-radius: 10px;
+                        text-align: center;
+                        padding: 10px 5px;
+                        transition: right 0.9s ease; 
+                        z-index: 2000;
+                }
+                img{
+                        width: 50px;
+                        border-radius: 50%;
+                }
+                &:hover{
+                        .titulo_text{
+                                color: $color_selecionado;
+                        }
+                        img{
+                                box-shadow: 0px 0px 2px 2px $color_selecionado;
+                        }
+                }
+        }
+}
+.contenedor_nav{
+        width: 80px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-right: 1px solid rgb(95, 95, 95);
+        padding-right: 3px;
+        .nav_lateral{
+                width: 100%;
+                text-align: center;
+                padding-top: 15px;
+                .logo{
+                        width: 50px;
+                        filter: invert(100%);
+                }
+                .nav_iconos
+                {
+                        position: relative;
+                        top: -40px;
+                        height: calc(100vh - 120px);
+                        @include displayFlex(column, center, center);
+                        .iconos_v
+                        {
+                                margin: 10px 0;
+                                height: 40px;
+                                padding: 5px 8px 3px 8px;
+                                position: relative;
+                                .img_iconos
+                                {
+                                        width: 28px;
+                                        filter: invert(100%);
+                                }
+                                &:hover
+                                        {
+                                                box-shadow: 0px 0px 5px $color_selecionado;
+                                                border-radius: 10px;
+                                                background-color: $color_selecionado;
+                                                .info{
+                                                        display: inline-block;
+                                                }
+                                        }
+                                .info 
+                                {
+                                        display: none;
+                                        color: $color_selecionado;
+                                        text-shadow: 0px 0px 4px $color_selecionado;
+                                        position: absolute;
+                                        top: 12px;
+                                        right: -145px;
+                                        left: 0;
+                                        -ms-user-select: none;
+                                        -webkit-user-select: none;
+                                        -moz-user-select: none;
+                                        user-select: none;
+                                }
+                        }
+                }
+        }
+}
+
+@media (max-width:900px) {
+        body{
+                padding-left: 0px;
+                padding-top: 100px;
+        }
+        .contenedor_nav{
+                width: 100%;
+                height: max-content;
+                justify-content: center;
+                .nav_lateral{
+                        justify-content: center;
+                        display: flex;
+                        flex-direction: row;
+                        .logo{
+                                display: none;
+                        }
+                        .nav_iconos {
+                                display: flex;
+                                flex-direction: row;
+                                width: 100%;
+                                height: 100%;
+                        }
+                }
+        }
+}

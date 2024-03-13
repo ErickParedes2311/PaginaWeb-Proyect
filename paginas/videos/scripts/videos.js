@@ -3,9 +3,9 @@ const abrir = (valor) => {
         // Define un objeto que mapea los nombres de las páginas a sus URLs
         let paginas = {
             'Inicio' : '../../../index.html',
-            'Tienda' : 'tienda.html',
+            'Tienda' : '/paginas/tienda/tienda.html',
             'Juegos' : '/paginas/juegos/juegos.html',
-            'Videos' : '/paginas/videos/videos.html',
+            'Videos' : 'videos.html',
             'Libros' : '/paginas/libros/libros.html'
         }
     
