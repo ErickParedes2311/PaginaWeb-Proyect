@@ -9,3 +9,54 @@
 }
 @import '../reutilizables/lateralysuperior';
 
+.contenedor_mejor_contenido
+{
+        position: relative;
+        background: linear-gradient(30deg, rgba(244,0,255,0) 50%, rgba(255,202,0,1) 100%);
+        width: 90%;
+        min-width: 700px;
+        height: 200px;
+        margin: 0 auto;
+        border-radius: 25px;
+        box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.23);
+        color: white ;
+        overflow: hidden;
+        @include displayFlex(row, center, center);
+        .info_mejor_contenido{
+                @include displayFlex(column, center, center);
+                flex: auto 1  1 ;
+                .btn_comprar{
+                        @include displayFlex(row, center, space-between);
+                        width: 250px;
+                        height: max-content;
+                        padding: 7px 7px;
+                        @include calcularRadio(7px, 13px);
+                        margin-top: 10px;
+                        background: rgba(48, 48, 48, 0.845);
+                        .text_precio{
+                                margin-left: 10px;
+                        }
+                        .comprar_btn{
+                                width: max-content;
+                                height: max-content;
+                                background: $color_selecionado;
+                                padding: 12px 20px;
+                                border-radius: 13px;
+                                cursor: pointer;
+                                &:hover{
+                                        box-shadow: 0 0 2px 0px $color_selecionado;
+                                }
+                        }
+                }
+        }
+        .logo_mejor_contenido{
+                display: flex;
+                justify-content: center;
+                flex: auto 1 1 ; 
+                .logo_mejor_contenido{
+                        display: block;
+                        max-width: 400px;
+                        height: 270px;
+                }
+        }
+}
