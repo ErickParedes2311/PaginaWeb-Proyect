@@ -276,6 +276,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 }
 .contenedor_mejor_contenido .info_mejor_contenido {
   display: flex;

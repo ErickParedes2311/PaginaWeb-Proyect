@@ -22,6 +22,7 @@
         color: white ;
         overflow: hidden;
         @include displayFlex(row, center, center);
+        z-index: -1;
         .info_mejor_contenido{
                 @include displayFlex(column, center, center);
                 flex: auto 1  1 ;
