@@ -27,7 +27,6 @@ const abrir = (valor) => {
                     notifi.style.right = '0';
             })
     
-    
     const perfilContent = document.querySelector('.perfilContent');
     const perfil = document.querySelector('.content_emergent_perfil');
             perfilContent.addEventListener('click', () => {
@@ -46,5 +45,4 @@ const abrir = (valor) => {
             perfil.style.right = '-300px';
         }
     });
-    
     

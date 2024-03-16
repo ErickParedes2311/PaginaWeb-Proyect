@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="#" type="image/x-icon">
         <link rel="stylesheet" href="Estilos/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
         <title>Tienda</title>
 </head>
 <body>
@@ -72,19 +76,20 @@
 
 <!-- parte del Mejor Contenido -->
         <section class="contenedor_mejor_contenido"> 
-                <div class="info_mejor_contenido">
-                        <b class="text_titulo_info">Spaider man game</b>
-                        <p class="descripcion_info">Myles Morales</p>
-                        <section class="btn_comprar">
-                                <p class="text_precio">$11.20</p>
+                <div class="info_mejor_contenido ">
+                        <b class="text_titulo_info animate__fadeInDown" id="titulo"></b>
+                        <p class="descripcion_info animate__fadeInDown" id="descripcion"></p>
+                        <a class="btn_comprar animate__fadeInDown" id="env_btn_comprar">
+                                <p class="text_precio" id="precio"></p>
                                 <p class="comprar_btn">Comprar</p>
-                        </section>
+                        </a>
                 </div>
                 <div class="logo_mejor_contenido">
-                        <img src="img/spiderman.png" alt="" class="logo_mejor_contenido">
+                        <img id="imagen"  alt="imagenes" class="logo_mejor_contenido animate__swing">
                 </div>
         </section>
         
+        <script src="./scripts/principal.js" type="module"></script>
         <script src="./scripts/script.js"></script>
 </body>
 </html>

@@ -11,6 +11,7 @@ li {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 svg {
@@ -56,6 +57,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: none;
+  z-index: 1000;
 }
 .contenedor_perfil .buscar {
   width: -moz-max-content;

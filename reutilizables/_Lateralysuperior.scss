@@ -14,6 +14,7 @@ body{
         width: 100%;
         height: 50px;
         @include displayFlex(row, center, none);
+        z-index: 1000;
         .buscar{
                 width: max-content;
                 height: 100%;
