@@ -173,3 +173,82 @@ export const juegosData = [
                 precio: '17.00'
         },
 ]
+export const comicsData = [
+        {
+                imagen: 'img/comicsData/Nightwing.jpg',
+                genero: 'DC COMICS',
+                nombre: 'Nightwing #112',
+                precio: '4.99',
+                descripcion: '¡QUÉ LE PASA A NIGHTWING?! Nightwing continúa luchando con su reciente ay, ¿por qué no puede saltar y qué lo está causando? Y Batman continúa su investigación al respecto; ¿está más cerca de descubrir la raíz de este nuevo dilema antes de que haya algunas consecuencias graves? ¡Además, la segunda parte de la saga de la época! Hace unos siete siglos, nació el nombre Grayson. Un hijo de la Peste Negra. La historia de la venganza llega a su conclusión épica.'
+        },
+        {
+                imagen: 'img/comicsData/Batman  Superman Worlds Finest.jpg',
+                genero: 'DC COMICS',
+                nombre: 'Batman / Superman: Worlds Finest #25',
+                precio: '4.99',
+                descripcion: '¡TESTIGUA LA PRIMERA REUNIÓN ENTRE EL JOKER Y LEX LUTHOR! ¡Únete a Batman y Superman mientras el equipo Worldwides Finest celebra 25 números de Worldwides Finest! Este número especial de gran tamaño lleva a nuestros héroes alrededor de la DCU y más allá de— con una historia principal especial que finalmente mostrará la primera reunión entre The Joker y Lex Luthor. ¡Los mejores villanos del Mundo forman una alianza impía y enviarán escalofríos por las espinas de los Héroes de DCU para siempre! ¡MÁS: Saliendo de los eventos de Worldwide Finest Annual, Doom-Mite golpea y señala el camino hacia la próxima epopeya de Worldwide!'
+        },
+        {
+                imagen: 'img/comicsData/Superman.jpg',
+                genero: 'DC COMICS',
+                nombre: 'Superman',
+                precio: '6.99',
+                descripcion: '¡EL HOMBRE DE LOS EQUIPOS DE ACERO CON LEX LUTHOR CONTRA EL ESCUADRÓN DE VENGANZA LEX LUTHOR! Superman es el cerebro, mientras que Lex es el musculoso, mientras se unen para luchar contra el Escuadrón de Venganza Lex Luthor por el destino de Metropolis. ¡Lex ha jurado a Superman que es un hombre cambiado, pero hasta qué punto va a ir para detener a sus enemigos?! ¿Y qué peligro del espacio profundo se dirige rápidamente hacia la Tierra?',
+        },
+        {
+                imagen: 'img/comicsData/Titans.jpg',
+                genero: 'DC Comics',
+                nombre: 'Titans',
+                precio: '3.99',
+                descripcion: 'TITANES: BEAST WORLDS LUCAS MEYER SE UNE A LA SERIE COMO ARTISTA EN CURSO! Amanda Waller ha condenado a los Titanes y los culpó públicamente por una crisis mundial. Mientras que muchos todavía ven a los Titanes como héroes, otros ahora los ven como un peligro para todos. ¿Pueden los Titanes luchar contra la desinformación y luchar por un mundo que los odia? ¿Mientras tanto, la mayor amenaza para el equipo puede estar dentro de sus propias filas?'
+        },
+        {
+                imagen: 'img/comicsData/Wonder Woman.jpg',
+                genero: 'DC Comics',
+                nombre: 'Wonder Woman',
+                precio: '7.99',
+                descripcion: 'UN NÚMERO ESPECIAL ESCRITO POR TOM REY CON ARTE DE MARCHA GUILLEM! ¡Para el Batman que lo tiene todo! En medio de sus aventuras como Superman y Wonder Woman, Clark y Diana realizan un emocionante viaje al espacio para obtener un regalo de cumpleaños para su querido amigo Bruce.'
+        },
+        {
+                imagen: 'img/comicsData/Spawn.jpg',
+                genero: 'Image Comics',
+                nombre: 'Spawn',
+                precio: '2.99',
+                descripcion: 'Las secuelas de SPAWN #350 están sobre nosotros. ¡Son seis meses después, y nadie está a salvo!'
+        },
+        {
+                imagen: 'img/comicsData/The Invincible Iron Man.jpg',
+                genero: 'Marvel Comics',
+                nombre: 'The Invincible Iron Man',
+                precio: '1.99',
+                descripcion: 'El Día está aquí y hay absolutamente un evento principal: ¡Iron Man vs. Feilong! ¡Prepárate para el mayor choque de armaduras que jamás hayas visto! Además: ¡Tony recibe algunos trajes nuevos!'
+        },
+        {
+                imagen: 'img/comicsData/Justice Society of America.jpg',
+                genero: 'DC Comics',
+                nombre: 'Justice Society of America',
+                precio: '5.99',
+                descripcion: '¡BUSCANDO A LA HIJA DE LA LINTERNA ROJA! ¡La JSA recorre Europa en busca de Ruby, la hija de Red Lantern! ¿Pero podrán alcanzarla antes de que queme la Tierra en busca de su padre?'
+        },
+        {
+                imagen: 'img/comicsData/Catwoman.jpg',
+                genero: 'DC Comics',
+                nombre: 'Catwoman',
+                precio: '7.99',
+                descripcion: '¡LUCES, CÁMARA, CAT-TION! CARACTERÍSTICAS OBRAS DE ARTE DE FAN-FAVORITE CARMÍN DI GIANDOMENICO. La gira internacional de Selina por la muerte y el renacimiento continúa. ¿Su último crimen? Ir profundamente bajo el mar para rescatar a un director de cine convertido en prisionero político lavado de cerebro de un grupo de neer-do-wells submarinos. El único problema es que el director no quiere abandonar su nuevo hogar, y alberga un secreto que lo hará letal para Selina si alguien descubre que lo han llevado…incluyendo al propio director. Para superar la misión con cualquiera de sus nueve vidas intactas, Catwoman tendrá que engañar a su cantera para que piense que no está sucediendo nada fuera de lo común. ¡Pero sus habilidades de actuación resistirán los estándares del director?!'
+        },
+        {
+                imagen: 'img/comicsData/Liga de la Justicia vs Godzilla vs Kong.jpg',
+                genero: 'DC Comics',
+                nombre: 'Liga de la Justicia vs. Godzilla vs. Kong',
+                precio: '4.99',
+                descripcion: '¡LAS FUERZAS MISTERIOSAS CAUSAN EL CAOS DE MONSTRUOS! El choque más vendido entre el DCU y el Monsterverse continúa cuando se activa un misterioso faro y está atrayendo a Godzilla y sus hermanos titanes hacia él… pero, ¿quién — o qué — controla la baliza? ¡Qué secreto ha mantenido Lex Luthor en secreto que podría cambiar la dinámica de toda la batalla?!'
+        },
+        {
+                imagen: 'img/comicsData/Batman.jpg',
+                genero: 'DC Comics',
+                nombre: 'Batman 89: Echoes',
+                precio: '6.99',
+                descripcion: '¿QUÉ ACECHA DETRÁS DE LAS PUERTAS DE ARKHAM? ¡LA MUY ESPERADA SECUELA DE BATMAN 89 CONTINÚA! Con Batman desaparecido, Alfred recurre a Drake Winston y Barbara Gordon con la esperanza de encontrarlo. Mientras tanto, algo se está gestando en Arkham Asylum con el Dr. Jonathan Crane y el Dr. ¡Harleen Quinzel duqueando sobre el nuevo paciente famoso que acaba de ser admitido!'
+        },
+]
