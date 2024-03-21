@@ -177,14 +177,14 @@ export const comicsData = [
         {
                 imagen: 'img/comicsData/Nightwing.jpg',
                 genero: 'DC COMICS',
-                nombre: 'Nightwing #112',
+                nombre: 'Nightwing',
                 precio: '4.99',
                 descripcion: '¡QUÉ LE PASA A NIGHTWING?! Nightwing continúa luchando con su reciente ay, ¿por qué no puede saltar y qué lo está causando? Y Batman continúa su investigación al respecto; ¿está más cerca de descubrir la raíz de este nuevo dilema antes de que haya algunas consecuencias graves? ¡Además, la segunda parte de la saga de la época! Hace unos siete siglos, nació el nombre Grayson. Un hijo de la Peste Negra. La historia de la venganza llega a su conclusión épica.'
         },
         {
                 imagen: 'img/comicsData/Batman  Superman Worlds Finest.jpg',
                 genero: 'DC COMICS',
-                nombre: 'Batman / Superman: Worlds Finest #25',
+                nombre: ' Worlds Finest',
                 precio: '4.99',
                 descripcion: '¡TESTIGUA LA PRIMERA REUNIÓN ENTRE EL JOKER Y LEX LUTHOR! ¡Únete a Batman y Superman mientras el equipo Worldwides Finest celebra 25 números de Worldwides Finest! Este número especial de gran tamaño lleva a nuestros héroes alrededor de la DCU y más allá de— con una historia principal especial que finalmente mostrará la primera reunión entre The Joker y Lex Luthor. ¡Los mejores villanos del Mundo forman una alianza impía y enviarán escalofríos por las espinas de los Héroes de DCU para siempre! ¡MÁS: Saliendo de los eventos de Worldwide Finest Annual, Doom-Mite golpea y señala el camino hacia la próxima epopeya de Worldwide!'
         },
@@ -226,7 +226,7 @@ export const comicsData = [
         {
                 imagen: 'img/comicsData/Justice Society of America.jpg',
                 genero: 'DC Comics',
-                nombre: 'Justice Society of America',
+                nombre: 'Justice Society',
                 precio: '5.99',
                 descripcion: '¡BUSCANDO A LA HIJA DE LA LINTERNA ROJA! ¡La JSA recorre Europa en busca de Ruby, la hija de Red Lantern! ¿Pero podrán alcanzarla antes de que queme la Tierra en busca de su padre?'
         },
@@ -240,7 +240,7 @@ export const comicsData = [
         {
                 imagen: 'img/comicsData/Liga de la Justicia vs Godzilla vs Kong.jpg',
                 genero: 'DC Comics',
-                nombre: 'Liga de la Justicia vs. Godzilla vs. Kong',
+                nombre: 'Liga de la Justicia',
                 precio: '4.99',
                 descripcion: '¡LAS FUERZAS MISTERIOSAS CAUSAN EL CAOS DE MONSTRUOS! El choque más vendido entre el DCU y el Monsterverse continúa cuando se activa un misterioso faro y está atrayendo a Godzilla y sus hermanos titanes hacia él… pero, ¿quién — o qué — controla la baliza? ¡Qué secreto ha mantenido Lex Luthor en secreto que podría cambiar la dinámica de toda la batalla?!'
         },

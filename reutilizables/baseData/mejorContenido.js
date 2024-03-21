@@ -16,12 +16,12 @@ class mejorContenido {
 export const recorrerMejorContenido = contenidoData.map(x => new mejorContenido(x.titulo, x.actor, x.precio, x.enlace, x.imagen));
 
 class nomString {
-        constructor(imagen, nombre, descripcion, precio,genero){
+        constructor(imagen, genero, nombre, precio, descripcion){
                 this.imagen = imagen;
+                this.genero = genero;
                 this.nombre = nombre;
                 this.descripcion = descripcion;
                 this.precio = precio;
-                this.genero = genero;
         }
 }
 

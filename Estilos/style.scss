@@ -83,15 +83,14 @@
         }
 }
 
-.contenedor_juegos_peliculas
+.contenedor_juegos_comic
 {
         width: 90%;
         height: 50%;
-        // background: rgb(122, 122, 122);
         margin: 0 auto;
         @include displayFlex(row, center, space-between);
         margin-top: 25px;
-        .contenedor_peliculas
+        .contenedor_comic
         {
                 flex: auto 1 1;
                 height: 100%;
@@ -105,13 +104,43 @@
                 {
                         @include displayFlex(row, center, space-between);
                         font-size: 1.2em;
-                        margin: 25px 50px 0 ;
+                        margin: 10px 50px 0 ;
                         .peliculas_flecha
                         {
                                 width: 30px;
                                 height: max-content;
                                 stroke:#ffffff;
                                 margin-right: -30px;
+                        }
+                }
+                .contenedor_carta
+                {
+                        @include displayFlex(column, center, center);
+                        margin-top: 15px;
+                        #imagen_comic
+                        {
+                                max-width: 100px;
+                                margin: 0 auto;
+                                margin-bottom: 6px;
+                        }
+                        #genero_comic
+                        {
+                                color: white;
+                                margin-bottom: 6px;
+                        }
+                        #nombre_comic
+                        {
+                                 color: white;;
+                                 margin-bottom: 6px;       
+                        }
+                        #ver_mas_comic
+                        {
+                                width: 63%;
+                                padding: 5px;
+                                border-radius: 7px;
+                                background-color: $color_selecionado;
+                                color: white;
+                                font-weight: 700;
                         }
                 }
         }

@@ -347,7 +347,7 @@ body {
   filter: drop-shadow(1px 1px 15px rgb(0, 0, 0));
 }
 
-.contenedor_juegos_peliculas {
+.contenedor_juegos_comic {
   width: 90%;
   height: 50%;
   margin: 0 auto;
@@ -357,7 +357,7 @@ body {
   justify-content: space-between;
   margin-top: 25px;
 }
-.contenedor_juegos_peliculas .contenedor_peliculas {
+.contenedor_juegos_comic .contenedor_comic {
   flex: auto 1 1;
   height: 100%;
   min-width: 230px;
@@ -367,22 +367,50 @@ body {
   border-radius: 20px;
   margin-right: 10px;
 }
-.contenedor_juegos_peliculas .contenedor_peliculas .env_peliculas {
+.contenedor_juegos_comic .contenedor_comic .env_peliculas {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   font-size: 1.2em;
-  margin: 25px 50px 0;
+  margin: 10px 50px 0;
 }
-.contenedor_juegos_peliculas .contenedor_peliculas .env_peliculas .peliculas_flecha {
+.contenedor_juegos_comic .contenedor_comic .env_peliculas .peliculas_flecha {
   width: 30px;
   height: -moz-max-content;
   height: max-content;
   stroke: #ffffff;
   margin-right: -30px;
 }
-.contenedor_juegos_peliculas .contenedor_juegos {
+.contenedor_juegos_comic .contenedor_comic .contenedor_carta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.contenedor_juegos_comic .contenedor_comic .contenedor_carta #imagen_comic {
+  max-width: 100px;
+  margin: 0 auto;
+  margin-bottom: 6px;
+}
+.contenedor_juegos_comic .contenedor_comic .contenedor_carta #genero_comic {
+  color: white;
+  margin-bottom: 6px;
+}
+.contenedor_juegos_comic .contenedor_comic .contenedor_carta #nombre_comic {
+  color: white;
+  margin-bottom: 6px;
+}
+.contenedor_juegos_comic .contenedor_comic .contenedor_carta #ver_mas_comic {
+  width: 63%;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: #0d81ec;
+  color: white;
+  font-weight: 700;
+}
+.contenedor_juegos_comic .contenedor_juegos {
   flex: auto 9 1;
   height: 100%;
   min-width: 420px;

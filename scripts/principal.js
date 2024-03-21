@@ -1,5 +1,6 @@
 import { recorrerMejorContenido } from "../reutilizables/baseData/mejorContenido.js";
-console.log(recorrerMejorContenido);
+import { recorrerComicsData } from "../reutilizables/baseData/mejorContenido.js";
+console.log(recorrerComicsData);
 
 let A = 0;
 
@@ -21,3 +22,18 @@ let imagen = document.getElementById("imagen");
         }
         mejorContenidoRecorrer();
 
+let X = 0;
+function comicRecorrer()
+        {
+                        const contenido =  recorrerComicsData[X];
+                        document.getElementById("genero_comic").innerHTML = contenido.genero;
+                        document.getElementById("nombre_comic").innerHTML = contenido.nombre;
+                        // btnBoton.href = contenido.enlace; 
+                        // imagen.src = contenido.imagen;
+                        X++;        
+                        setTimeout(comicRecorrer, 4000);
+                        if(X == 4){
+                                X = 0;
+                        }
+        }
+        comicRecorrer();
