@@ -117,7 +117,9 @@
                 .contenedor_carta
                 {
                         @include displayFlex(column, center, center);
-                        margin-top: 15px;
+                        width: 100%;
+                        height: 85%;
+                        text-align: center;
                         #imagen_comic
                         {
                                 max-width: 100px;
@@ -134,15 +136,7 @@
                         {
                                  color: white;;
                                  margin-bottom: 5px;       
-                        }
-                        #ver_mas_comic
-                        {
-                                width: 63%;
-                                padding: 5px;
-                                border-radius: 7px;
-                                background-color: $color_selecionado;
-                                color: white;
-                                font-weight: 700;
+                                 font-size: 1.5em;
                         }
                 }
         }
@@ -162,7 +156,7 @@
                 {
                         @include displayFlex(row, center, space-between);
                         font-size: 1.2em;
-                        margin: 0px 50px 0 ;
+                        margin: 0px 50px 10px ;
                         .peliculas_flecha
                         {
                                 width: 30px;
@@ -174,44 +168,31 @@
                 .juegos
                 {
                         width: 95%;
-                        height: 85%;
+                        height: 83%;
                         display: flex;
                         flex-direction: row;
                         margin: 5px auto 0;
                         #juegos_contenedor1,  #juegos_contenedor2,  #juegos_contenedor3
                         {
-                                width: 100px;
-                                height: 235px;
+                                width: 100%;
+                                height: 100%;
                                 min-width: 170px;
-                                background-color: white;
                                 flex: auto 1 1;
                                 margin: 0 10px;
+                                border-radius: 20px;
+                                @include displayFlex(column, center, center);
+                                color: white;
+                                img{
+                                        width: 100%;
+                                        max-width: 150px;
+                                        height: 100%;
+                                }
+                                .genero
+                                {
+                                        font-size: 8px;
+                                }
                         }
-                        // #juegos_contenedor1
-                        // {
-                        //         width: 100px;
-                        //         height: 235px;
-                        //         min-width: 170px;
-                        //         background-color: white;
-                        //         flex: auto 1 1;
-                        // }
-                        // #juegos_contenedor2
-                        // {
-                        //         width: 100px;
-                        //         height: 235px;
-                        //         min-width: 170px;
-                        //         background-color: white;
-                        //         flex: auto 1 1;
-                        //         margin: 0 20px;
-                        // }
-                        // #juegos_contenedor3
-                        // {
-                        //         width: 100px;
-                        //         height: 235px;
-                        //         min-width: 170px;
-                        //         background-color: white;
-                        //         flex: auto 1 1;
-                        // }
+
                 }
         }
 }

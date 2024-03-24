@@ -45,10 +45,11 @@ body {
   padding-left: 90px;
   padding-top: 70px;
   padding-right: 10px;
+  overflow-x: hidden;
 }
 
 .contenedor_perfil {
-  position: fixed;
+  position: absolute;
   top: 10px;
   width: 100%;
   height: 50px;
@@ -179,11 +180,13 @@ body {
 }
 
 .contenedor_nav {
+  position: fixed;
   width: 80px;
   height: 100%;
-  position: absolute;
   left: 0;
   top: 0;
+  top: 0;
+  bottom: 0;
   border-right: 1px solid rgb(95, 95, 95);
   padding-right: 3px;
 }
@@ -387,7 +390,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
+  width: 100%;
+  height: 85%;
+  text-align: center;
 }
 .contenedor_juegos_comic .contenedor_comic .contenedor_carta #imagen_comic {
   max-width: 100px;
@@ -402,14 +407,7 @@ body {
 .contenedor_juegos_comic .contenedor_comic .contenedor_carta #nombre_comic {
   color: white;
   margin-bottom: 5px;
-}
-.contenedor_juegos_comic .contenedor_comic .contenedor_carta #ver_mas_comic {
-  width: 63%;
-  padding: 5px;
-  border-radius: 7px;
-  background-color: #0d81ec;
-  color: white;
-  font-weight: 700;
+  font-size: 1.5em;
 }
 .contenedor_juegos_comic .contenedor_juegos {
   flex: auto 9 1;
@@ -429,7 +427,7 @@ body {
   align-items: center;
   justify-content: space-between;
   font-size: 1.2em;
-  margin: 0px 50px 0;
+  margin: 0px 50px 10px;
 }
 .contenedor_juegos_comic .contenedor_juegos .env_peliculas .peliculas_flecha {
   width: 30px;
@@ -440,16 +438,29 @@ body {
 }
 .contenedor_juegos_comic .contenedor_juegos .juegos {
   width: 95%;
-  height: 85%;
+  height: 83%;
   display: flex;
   flex-direction: row;
   margin: 5px auto 0;
 }
 .contenedor_juegos_comic .contenedor_juegos .juegos #juegos_contenedor1, .contenedor_juegos_comic .contenedor_juegos .juegos #juegos_contenedor2, .contenedor_juegos_comic .contenedor_juegos .juegos #juegos_contenedor3 {
-  width: 100px;
-  height: 235px;
+  width: 100%;
+  height: 100%;
   min-width: 170px;
-  background-color: white;
   flex: auto 1 1;
   margin: 0 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.contenedor_juegos_comic .contenedor_juegos .juegos #juegos_contenedor1 img, .contenedor_juegos_comic .contenedor_juegos .juegos #juegos_contenedor2 img, .contenedor_juegos_comic .contenedor_juegos .juegos #juegos_contenedor3 img {
+  width: 100%;
+  max-width: 150px;
+  height: 100%;
+}
+.contenedor_juegos_comic .contenedor_juegos .juegos #juegos_contenedor1 .genero, .contenedor_juegos_comic .contenedor_juegos .juegos #juegos_contenedor2 .genero, .contenedor_juegos_comic .contenedor_juegos .juegos #juegos_contenedor3 .genero {
+  font-size: 8px;
 }/*# sourceMappingURL=style.css.map */

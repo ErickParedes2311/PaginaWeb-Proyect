@@ -45,10 +45,11 @@ body {
   padding-left: 90px;
   padding-top: 70px;
   padding-right: 10px;
+  overflow-x: hidden;
 }
 
 .contenedor_perfil {
-  position: fixed;
+  position: absolute;
   top: 10px;
   width: 100%;
   height: 50px;
@@ -179,11 +180,13 @@ body {
 }
 
 .contenedor_nav {
+  position: fixed;
   width: 80px;
   height: 100%;
-  position: absolute;
   left: 0;
   top: 0;
+  top: 0;
+  bottom: 0;
   border-right: 1px solid rgb(95, 95, 95);
   padding-right: 3px;
 }
@@ -261,4 +264,36 @@ body {
     width: 100%;
     height: 100%;
   }
+}
+.videos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.videos .contenedor_peliculas {
+  width: 200px;
+  height: 300px;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+.videos .contenedor_peliculas .imagen_video {
+  max-width: 70%;
+}
+.videos .contenedor_peliculas .nombre {
+  font-size: 1em;
+}
+.videos .contenedor_peliculas .detalles {
+  font-size: 1em;
+  background-color: #0d81ec;
+  padding: 5px 15px;
+  border-radius: 10px;
 }/*# sourceMappingURL=videos.css.map */

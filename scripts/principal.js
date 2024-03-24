@@ -23,13 +23,13 @@ let imagen = document.getElementById("imagen");
         mejorContenidoRecorrer();
 
 let X = 0;
+let imagenComic = document.getElementById("imagen_comic");
 function comicRecorrer()
         {
                         const contenido =  recorrerComicsData[X];
                         document.getElementById("genero_comic").innerHTML = contenido.genero;
                         document.getElementById("nombre_comic").innerHTML = contenido.nombre;
-                        // btnBoton.href = contenido.enlace; 
-                        // imagen.src = contenido.imagen;
+                        imagenComic.src = contenido.imagen;
                         X++;        
                         setTimeout(comicRecorrer, 4000);
                         if(X == 4){

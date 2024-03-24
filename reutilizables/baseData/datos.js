@@ -31,81 +31,94 @@ export const contenidoData = [
 export const PeliculasData = [
         {
                 imagen: 'img/datosPeliculas/Capitán América El primer vengador.jpg',
-                nombre: 'Capitán América: El primer vengador',
+                nombre: 'El primer vengador',
+                precio: '10.00',
                 descripcion: 'Nacido durante la Gran Depresión, Steve Rogers creció como un chico enclenque en una familia pobre. Horrorizado por las noticias que llegaban de Europa sobre los nazis, decidió enrolarse en el ejército; sin embargo, debido a su precaria salud, fue rechazado una y otra vez. Enternecido por sus súplicas, el General Chester Phillips le ofrece la oportunidad de tomar parte en un experimento especial.',
-                precio: '10.00'
+                genero: ''
         },
         {
                 imagen: 'img/datosPeliculas/Justice League (Liga de la Justicia).jpg',
-                nombre: 'Justice League (Liga de la Justicia)',
+                nombre: 'Justice League',
+                precio: '10.00',
                 descripcion: 'Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza.',
-                precio: '10.00'
+                genero: ''
         },
         {
                 imagen: 'img/datosPeliculas/Serie Hunters.jpeg',
                 nombre: 'Hunters',
+                precio: '5.00',
                 descripcion: 'Hunters es una serie de televisión del género dramático creada por Natalie Chaidez y producida por Valhalla Entertainment junto a Universal Cable Poductions para Syfy. Escrita por la misma Natalie Chaidez, esta ficción televisiva está basada en la novela escrita por el autor Whitley Strieber Alien Hunter, publicada en 2013. ',
-                precio: '5.00'
+                genero: ''
         },
         {
                 imagen: 'img/datosPeliculas/Serie Bruja Escarlata y Visión.jpeg',
-                nombre: 'Bruja Escarlata y Visión',
+                nombre: 'WandaVision',
+                precio: '15.00',
                 descripcion: 'Bruja Escarlata y Visión de Marvel Studios combina el estilo de «sitcom clásicas» con el Universo Cinematográfico de Marvel. Wanda Maximoff y Visión, dos seres súper poderosos que viven sus vidas cotidianas ideales, comienzan a sospechar que no todo es como parece.',
-                precio: '15.00'
+                genero: ''
         },
         {
                 imagen: 'img/datosPeliculas/Falcon y el Soldado de Invierno.jpeg',
-                nombre: 'Falcon y el Soldado de Invierno',
+                nombre: 'Falcon y el Soldado',
+                precio: '7.00',
                 descripcion: 'Siguiendo los eventos de "Vengadores: Endgame", Sam Wilson/Falcon y Bucky Barnes/Soldado de Invierno se unen en una aventura global que pondrá a prueba sus habilidades... y su paciencia',
-                precio: '7.00'
+                genero: ''
         },
         {
                 imagen: 'img/datosPeliculas/La liga de la justicia El trono de Atlantis.jpeg',
-                nombre: 'La liga de la justicia: El trono de Atlantis',
+                nombre: 'El trono de Atlantis',
+                precio: '5.00',
                 descripcion: 'Los Villanos Orm y Manta negra hacen su jugada contra el mundo de la superficie después de la batalla con las fuerzas de Apokolips de Darkseid en La Aventura Anterior, tuvieron consecuencias mortales para Atlantis, Mera, la reina de la civilización submarina perdida busca su otro hijo, al hemanastro de Orm, Arthur Curry. ',
-                precio: '5.00'
+                genero: ''
         },
         {
                 imagen: 'img/datosPeliculas/Liga de la Justicia Dioses y Monstruos.jpeg',
-                nombre: 'Liga de la Justicia: Dioses y Monstruos',
+                nombre: 'Dioses y Monstruos',
+                precio: '10.00',
                 descripcion: 'La Liga de la Justicia: Dioses y Monstruos explora una realidad recién concebida en el Universo DC, donde los miembros de la Justice League Superman, Batman y Wonder Woman son versiones mucho más oscuras de los superhéroes que las personas piensan que conocen.',
-                precio: '10.00'
+                genero: ''
         },
         {
-                imagen: 'img/datosPeliculas/Kung Fu Panda 4.jpg',
+                imagen: 'img/datosPeliculas/Kung Fu Panda 4.jpeg',
                 nombre: 'Kung Fu Panda 4',
+                precio: '20.00',
                 descripcion: 'Po, quien se convertirá en el Maestro Espiritual del Valle de la Paz, busca a su sucesor como el nuevo Guerrero Dragón mientras lucha contra una nueva enemiga llamada «La Camaleona».',
-                precio: '20.00'
+                genero: ''
         },
         {
                 imagen: 'img/datosPeliculas/Pobres criaturas.jpeg',
                 nombre: 'Pobres criaturas',
+                precio: '30.00',
                 descripcion: 'Pobres criaturas, la reinvención en clave de comedia negra de la historia de Frankenstein del director griego Yorgos Lanthimos, cuenta la historia de Bella Baxter (Emma Stone) y el científico que experimenta con ella: el Dr. Godwin Baxter, interpretado por nada más y nada menos que don Willem Dafoe.',
-                precio: '30.00'
+                genero: ''
         },
         {
                 imagen: 'img/datosPeliculas/Cazafantasmas Imperio helado.jpeg',
-                nombre: 'Cazafantasmas: Imperio helado',
+                nombre: 'Imperio helado',
+                precio: '5.00',
                 descripcion: 'Las escenas poscréditos de Cazafantasmas: Más allá (2021) revelaba que Winston (Ernie Hudson) ahora era el dueño de la antigua estación de bomberos de los cazafantasmas. En Cazafantasmas: Imperio helado regresamos a Nueva York para luchar contra nuevas entidades ectoplásmicas.',
-                precio: '5.00'
+                genero: ''
         },
         {
                 imagen: 'img/datosPeliculas/Godzilla x Kong The New Empire.jpeg',
-                nombre: 'Godzilla x Kong: The New Empire',
+                nombre: 'The New Empire',
+                precio: '10.00',
                 descripcion: 'La secuela de Godzilla vs. Kong, que será la quinta entrega del "monsterverse" tras ésta, Godzilla (2014), Kong, la Isla Calavera (2017) y Godzilla, Rey de los Monstruos (2019), comenzó su producción en verano de 2022 en Australia. Por primera vez en la franquicia, un director repetirá a los mandos de una nueva película. Adam Wingard volverá la silla de dirección y los primeros rumores apuntaban a que Godzilla x Kong: The New Empire podría adaptar la historia de El hijo de Kong (Ernest B. Schoedsack, 1933), pero los primeros avances parecen presentar un nuevo y extraño simio como villano del título.',
-                precio: '10.00'
+                genero: ''
         },
         {
-                imagen: 'img/datosPeliculas/El reino del planeta de los simios,jpeg',
-                nombre: 'El reino del planeta de los simios',
+                imagen: 'img/datosPeliculas/planeta de los simios.jpeg',
+                nombre: 'planeta de los simios',
+                precio: '6.00',
                 descripcion: '"Puedo asegurar es que el legado de César continuará", sentenció en redes Wes Ball, director de un proyecto que inicia un capítulo nuevo en la saga, comenzando muchos años después de la conclusión de La guerra del planeta de los simios de 2017. Los monos vuelven con Disney al mando con El reino del planeta de los simios',
-                precio: '6.00'
+                genero: ''
         },
         {
                 imagen: 'img/datosPeliculas/Del revés 2.jpeg',
                 nombre: 'Del revés 2',
+                precio: '30.00',
                 descripcion: 'La secuela de Del revés, la película de Pixar ganadora del Óscar a mejor película de animación en 2015, es una realidad. Los nuevos invitados en la mente de Riley serán Envidia, Hastío, Ansiedad y Vergüenza. Estas nuevas emociones llegarán al centro de control que conocimos en la primera cinta y estamos seguros de que pondrán todo patas arriba en Del revés 2 (Inside Out 2)',
-                precio: '30.00'
+                genero: ''
         },
 ]
 export const juegosData = [

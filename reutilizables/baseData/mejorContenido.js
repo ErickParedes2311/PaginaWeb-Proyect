@@ -16,15 +16,15 @@ class mejorContenido {
 export const recorrerMejorContenido = contenidoData.map(x => new mejorContenido(x.titulo, x.actor, x.precio, x.enlace, x.imagen));
 
 class nomString {
-        constructor(imagen, genero, nombre, precio, descripcion){
+        constructor(imagen, nombre,  descripcion, precio, genero){
                 this.imagen = imagen;
-                this.genero = genero;
                 this.nombre = nombre;
                 this.descripcion = descripcion;
                 this.precio = precio;
+                this.genero = genero;
         }
 }
 
-export const recorrerPeliculasContenido = PeliculasData.map(y => new nomString(y.imagen, y.nombre, y.descripcion, y.precio));
-export const recorrerJuegosData = juegosData.map(z => new nomString(z.imagen, z.nombre, z.descripcion, z.genero, z.precio));
-export const recorrerComicsData = comicsData.map(a => new nomString(a.imagen, a.genero, a.nombre, a.precio, a.descripcion));
+export const recorrerPeliculasContenido = PeliculasData.map(y => new nomString(y.imagen, y.nombre, y.descripcion, y.precio, y.genero));
+export const recorrerJuegosData = juegosData.map(z => new nomString(z.imagen, z.nombre, z.descripcion, z.precio, z.genero));
+export const recorrerComicsData = comicsData.map(a => new nomString(a.imagen, a.nombre, a.descripcion, a.precio, a.genero));
