@@ -1,0 +1,48 @@
+.content_carta_contenido
+{
+        width: 100%;
+        height: 100%;
+        @include displayFlex(row, center, center);
+        flex-wrap: wrap;
+        // margin: 3px ;
+        .contenedor_carta_recorrer
+        {
+                width: 200px;
+                height: 300px;
+                background-color: $color_secundario;
+                @include displayFlex(column, center, space-between);
+                border-radius: 10px;
+                margin: 10px 5px;
+                padding: 15px 0;
+                color: white;
+                .imagen_carta_recorrer
+                {
+                        max-width: 70%;
+                }
+                .nombre_carta_recorrer
+                {
+                        padding: 0 10px;
+                        text-align: center;
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-size: 1em;
+                        white-space: nowrap;
+                        letter-spacing: 1px;
+                }
+                .detalles_carta_recorrer
+                {
+                        font-size: 1em;
+                        background-color: $color_seleccionar;
+                        padding: 5px 20px;
+                        border-radius: 10px;
+                        color: $color_selecionado;
+                        &:hover
+                        {
+                                background-color: $color_selecionado;
+                                box-shadow: 0px 0px 5px $color_selecionado;
+                                color: white;
+                        }
+                }
+        }
+}

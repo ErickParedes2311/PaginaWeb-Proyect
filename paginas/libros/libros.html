@@ -8,7 +8,7 @@
         <title>Tienda</title>
 </head>
 <body>
-        
+        <script type="module" src="./scripts/principalLibros.js"></script>
         <div class="contenedor_nav" id="nav">
                 <nav class="nav_lateral">
                         <img class="logo" src="../../img/logo.svg" alt="logo">
@@ -17,11 +17,6 @@
                                 <section class="iconos_v " id="inicio" onclick="abrir('Inicio')">
                                         <img class="img_iconos" src="../../img/inicio.svg" alt="icono de inicio/home" title="Inicio">
                                         <p class="info">Inicio</p>
-                                </section>
-        
-                                <section class="iconos_v" id="tienda" onclick="abrir('Tienda')">
-                                        <img class="img_iconos" src="../../img/Tienda.svg" alt="icono de Tienda" title="Tienda">
-                                        <p class="info">Tienda</p>
                                 </section>
         
                                 <section class="iconos_v" id="juegos"       onclick="abrir('Juegos')">
@@ -68,7 +63,11 @@
                         </div>
                 </div>
         </section>
-        hola
+        
+        <section class="content_carta_contenido">
+        </section>
+
+        
         <script src="./scripts/libros.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
-import { recorrerPeliculasContenido } from "../../../reutilizables/baseData/mejorContenido.js";
+import { recorrerComicsData } from "./../../../reutilizables/baseData/mejorContenido.js";
 
-let datos = recorrerPeliculasContenido ;
+let datos = recorrerComicsData;
 
 function recorrerData ()
 {

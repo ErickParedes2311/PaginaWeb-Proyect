@@ -115,7 +115,7 @@ export const PeliculasData = [
         },
         {
                 imagen: 'img/datosPeliculas/Del revés 2.jpeg',
-                nombre: 'Del revés 2',
+                nombre: 'Emociones 2',
                 precio: '30.00',
                 descripcion: 'La secuela de Del revés, la película de Pixar ganadora del Óscar a mejor película de animación en 2015, es una realidad. Los nuevos invitados en la mente de Riley serán Envidia, Hastío, Ansiedad y Vergüenza. Estas nuevas emociones llegarán al centro de control que conocimos en la primera cinta y estamos seguros de que pondrán todo patas arriba en Del revés 2 (Inside Out 2)',
                 genero: ''
@@ -130,8 +130,8 @@ export const juegosData = [
                 precio: '15.00'
         },
         {
-                imagen: 'img/juegosData/The Last of Us Parte II Remasterizado.jpg',
-                nombre: 'The Last of Us Parte II Remasterizado',
+                imagen: 'img/juegosData/Last of Us II.png',
+                nombre: 'Last of Us II',
                 descripcion: 'The Last of Us 2 es la secuela de The Last of Us, uno de los juegos más aclamados de la consola PS3, que apareció en 2015 en PS4 en versión remasterizada. Esta continuación ha sido anunciada en el evento PlayStation Experience de diciembre de 2016, generando grandísimas expectativas entre los jugadores.',
                 genero: 'Aventura de acción / Survival Horror',
                 precio: '14.00'
@@ -165,7 +165,7 @@ export const juegosData = [
                 precio: '17.00'
         },
         {
-                imagen: 'img/juegosData/SILENT HILL The Short Message.jpg',
+                imagen: 'img/juegosData/GSILENT HILL The Short Message.jpeg',
                 nombre: 'GSILENT HILL: The Short Message',
                 descripcion: 'SILENT HILL: The Short Message es un juego de terror desarrollado por Konami y HexaDrive y publicado por Konami para PlayStation 5. Después de muchos años de descanso la mítica saga de terror vuelve con una nueva entrega, en esta ocasión desde una perspectiva en primera persona y de manera gratuita, con una experiencia corta pero intensa, que nos mete de nuevo el miedo en el cuerpo y que ha contado con el trabajo de Masahiro Ito diseñando a una terrorífica criatura y Akira Yamaoka a cargo de la música.',
                 genero: 'Aventura de acción / Survival Horror / Terror',
